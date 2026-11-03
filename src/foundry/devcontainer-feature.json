@@ -1,0 +1,14 @@
+{
+    "name": "Foundry",
+    "id": "foundry",
+    "version": "1.0.0",
+    "description": "EVM Development Framework - Blazing fast smart contract development toolkit",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils:2",
+        "ghcr.io/devcontainers/features/rust:1"
+    ],
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/devcontainers/features/rust:1": {}
+    }
+}
